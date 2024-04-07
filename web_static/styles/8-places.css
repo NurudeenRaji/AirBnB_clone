@@ -1,0 +1,106 @@
+.places {
+    text-align: center;
+}
+
+.places h1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #ff5a5f 1px solid;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+
+.places h2 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Styling for the article sections */
+
+.place {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+}
+.price_by_night {
+    color: #ff5a5f;
+    border: #ff5a5f 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.information {
+    height: 80px;
+    border-top: #DDDDDD 1px solid;
+    border-bottom: #DDDDDD 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.max_guest, .number_rooms, .number_bathrooms {
+    width: 100px;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.guest_icon {
+    height: inherit;
+    width: inherit;
+    background: url(../images/icon_guest.png);
+    background-repeat: no-repeat;
+}
+.room_icon {
+    height: inherit;
+    width: inherit;
+    background: url(../images/icon_bed.png);
+    background-repeat: no-repeat;
+}
+.bath_icon {
+    height: inherit;
+    width: inherit;
+    background: url(../images/icon_bath.png);
+    background-repeat: no-repeat;
+}
+
+.max_guest p, .number_rooms p, .number_bathrooms p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.user, .description p {
+    display: flex;
+    justify-content: flex-start;
+}
+.description {
+    text-align: left;
+}
+.description p {
+    margin: 0;
+}
